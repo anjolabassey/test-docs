@@ -43,7 +43,7 @@ To verify a customer's identity make an API call similar to the one below:
 
     url = "https://ravesandboxapi.flutterwave.com/v2/kyc/bvn/1234567890?"
     querystring = {
-      "seckey": "FLWSECK_TEST-09891ac8c459eafdb10e3afccc0df58d-X"
+      "seckey": "FLWSECK_TEST-09891ac8c459eafdb10e3afccc0df58d-X" #test secret key
     }
     headers = {
       'content-type': 'application/json'
