@@ -53,7 +53,7 @@ To verify a customer's identity make an API call similar to the one below:
 
 ```
 
-In the above request, we passed the BVN of the customer as a path to the endpoint and added our secret key as a query parameter 
+In the above request, we passed the BVN of the customer as a path to the endpoint and added our test secret key as a query parameter 
 
  `https://ravesandboxapi.flutterwave.com/v2/kyc/bvn/:bvnnumber?seckey=FLWSECK-e6db11d1f8a6208de8cb2f94e293450e-X`
 
